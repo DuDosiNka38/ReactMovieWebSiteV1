@@ -1,0 +1,14 @@
+.Home{
+    text-align: center;
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.span{
+    margin: 5px;
+}

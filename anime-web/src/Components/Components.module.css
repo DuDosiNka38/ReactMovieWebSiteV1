@@ -1,0 +1,17 @@
+.Butt{
+height: 35px;
+padding: 1%;
+border: turquoise solid 1px;
+cursor: pointer;
+margin: 2%;
+}
+
+.Input{
+margin: 2%;
+padding: 5px, 15px;
+width: 95%;
+border: turquoise solid 1px;
+height: 30px;
+color: black;
+
+}

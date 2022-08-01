@@ -1,0 +1,52 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 5%;
+}
+.post-card{
+    border: darkturquoise solid 1px;
+    border-radius: 8px;
+    margin: 2%;
+    min-height: 30px;
+    width: 25%;
+   
+    
+}
+
+.post-img{
+    margin: 0;
+    min-height: 30px;
+    min-width: 50px ;
+    width: 60%;
+    
+}
+.PostsBlock{
+    margin-bottom: 1%;
+   
+}
+.post-block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.more_pages{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30%;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+.form{
+    border: darkturquoise solid 1px;
+    border-radius: 8px;
+    margin: 2%;
+    width: 50%;
+}
