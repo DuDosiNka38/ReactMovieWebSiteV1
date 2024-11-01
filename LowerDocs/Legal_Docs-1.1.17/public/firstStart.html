@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First start</title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: rgb(2,0,36);
+        background: linear-gradient(327deg, rgba(2,0,36,1) 0%, rgba(121,9,117,0.76234243697479) 35%, rgba(0,212,255,1) 100%);
+        overflow: hidden;
+    }
+
+    body .serverForm .logo{
+        font-size: 36px;
+        color:red;
+        text-align: center;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    body .serverForm input#server{
+        display: block;
+        width: 600px;
+        padding: 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        outline: none;
+        padding-left: 120px;
+    }
+
+    body .serverForm button{
+        width: 100%;
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        background: red;
+        background: #673AB7;
+        color: #fff;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 14px;
+        opacity: 0.8;
+        outline: none;
+    }
+
+    body .serverForm button:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    body .loader{        
+        display: none;
+    }
+
+    body .error{
+        display: none;
+        position: relative;
+        top: -10px;
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 10px;
+        color: #ad1515;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .show{
+        display: block!important;
+    }
+
+    .hide{
+        display: none!important;
+    }
+
+    .lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.__select {
+    display: block!important;
+    position: absolute;
+    width: 110px;
+    height: 61px;
+    margin: 0 auto;
+    border-right: 1px solid #5930a2;
+    background: #673AB7;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.__select[data-state=active] .__select__title::before {
+  transform: translate(-3px, -50%) rotate(-45deg);
+}
+.__select[data-state=active] .__select__title::after {
+  transform: translate(3px, -50%) rotate(45deg);
+}
+.__select[data-state=active] .__select__content {
+  opacity: 1;
+}
+.__select[data-state=active] .__select__label + .__select__input + .__select__label {
+  max-height: 60px;
+  border-top-width: 1px;
+}
+
+.__select__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.__select__title::before, .__select__title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  display: block;
+  width: 10px;
+  height: 2px;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
+  transform: translate(-3px, -50%) rotate(45deg);
+}
+.__select__title::after {
+  transform: translate(3px, -50%) rotate(-45deg);
+}
+.__select__title:hover {
+  border-color: #6A1B9A;
+}
+.__select__title:hover::before, .__select__title:hover::after {
+  background-color: #6A1B9A;
+}
+
+.__select__content {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    background-color: #ffffff;
+    border: none;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    z-index: 8;
+    overflow: hidden;
+}
+
+.__select__input {
+  display: none;
+}
+.__select__input:checked + label {
+  background-color: #dedede;
+}
+.__select__input:disabled + label {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.__select__label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    max-height: 0;
+    padding: 0 16px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    overflow: hidden;
+    color: #673AB7;
+}
+.__select__label + input + .__select__label {
+  border-top: 0 solid #c7ccd160;
+}
+.__select__label:hover {
+  background-color: #7E57C2 !important;
+  color: #ffffff;
+}
+
+</style>
+<body>
+    <div class="serverForm" id="serverForm">
+        <div class="logo"><img src="./icons/logo-light.png"/></div>
+        <div class="__select" data-state="">
+            <div class="__select__title" data-default="http://">http://</div>
+            <div class="__select__content">
+            <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+            <label for="singleSelect0" class="__select__label">http://</label>
+            <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+            <label for="singleSelect1" class="__select__label">http://</label>
+            <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+            <label for="singleSelect1" class="__select__label">https://</label>
+            </div>
+        </div>
+        <input type="text" name="server" id="server" placeholder="localhost:3000"/>
+        <p class="error" id="error"></p>
+        <button type="submit" name="saveServer" onclick="saveServer();">Check & Save</button>
+    </div>
+    <div class="loader" id="loader">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    
+    <script src="./core/renderer.js"></script>
+    <script src="./core/select.js"></script>
+</body>
+</html>

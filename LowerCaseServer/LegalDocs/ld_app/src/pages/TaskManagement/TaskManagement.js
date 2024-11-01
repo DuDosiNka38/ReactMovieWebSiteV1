@@ -1,0 +1,42 @@
+import React, { Component } from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardBody,
+  CardHeader,
+  Button,
+} from "reactstrap";
+import PageHeader from "./../../components/PageHader/PageHeader";
+import notification from "../../services/notification";
+import { connect } from "react-redux";
+import * as ModalActions from "../../store/modal/actions";
+class TaskManagement extends React.Component {
+  state = {};
+
+  handleChange = (e, val) => {
+    const { name } = e.currentTarget;
+    this.setState({ [name]: val });
+  };
+
+  render() {
+    const { notifications } = this.state;
+    return (
+      <>
+        <div className="page-content ">
+          <Container fluid>
+            <PageHeader>Task Management</PageHeader>
+          </Container>
+        </div>
+      </>
+    );
+  }
+}
+
+const mapDispatchToProps = (dispatch) => ({
+  showModal: (type, props) => dispatch(ModalActions.showModal(type, props)),
+  hideModal: (type, props) => dispatch(ModalActions.hideModal(type, props)),
+});
+
+export default connect(null, mapDispatchToProps)(TaskManagement);

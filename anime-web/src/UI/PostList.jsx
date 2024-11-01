@@ -1,7 +1,7 @@
 import React from 'react';
 import './Ui.css';
 import PostItem from './PostItem';
-import Button from '../Components/Button';
+
 
 
 const PostList = function ({ posts, deletepost, load, MorePages, page , limit}) {

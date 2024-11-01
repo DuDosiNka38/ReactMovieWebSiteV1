@@ -1,0 +1,130 @@
+.card-body.page-filters {
+  background: #f7f7f7;
+  margin-top: 1px;
+  border-bottom: 1px solid #00000033;
+
+  button{
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    i{
+      margin-right:5px;
+    }
+  }   
+
+  .custom-control{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .form-group.with-padding{
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 90px;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 0 2px #e4e4e4;
+    background: white;
+
+    .order-type{
+      cursor: pointer;
+      color: #3F51B5;
+      line-height: 1;
+      font-weight: bold;
+      
+      &:hover{
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .filter-form-group-custom{
+    position: relative;
+    margin-bottom: 0!important;
+  
+    .form-control{
+      height: 60px;
+      padding: 25px 10px 5px 60px;
+    }
+  
+    label.input-label{
+        position: absolute;
+        top: 7px;
+        left: 60px;
+        z-index: 15 ;
+    }
+  
+    i{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 19px;
+        font-size: 24px;
+        z-index: 15;
+        color:#5664d2;
+    }
+    .form-control{
+      padding: 25px 10px 5px 60px;
+    }
+  
+    .invalid-feedback{
+      position: absolute;
+    }
+  }
+  
+  .datepicker-form{
+    // label{
+    //   color:red;
+    // }
+    input{
+      display: block;
+      width: 100%;
+      height: calc(1.5em + 0.94rem + 2px);
+      padding: 0.47rem 0.75rem;
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #505d69;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+  }
+
+  .datepicker-form.range{
+    input{
+      padding-left: 30px;
+      cursor: pointer;
+    }
+
+    input:hover{
+      border-color: hsl(0, 0%, 70%);
+    }
+
+    i{
+      position: absolute;
+      z-index: 1;
+      /* top: 50%; */
+      transform: translateY(46%);
+      left: 10px;
+    }
+
+    label.start,
+    label.end{
+      display: block;
+      position: absolute;
+      z-index: 2;
+      font-size: 12px;
+      background: #fff;
+      top: -11px;
+      left: 10px;
+      padding: 2px;
+    }
+  }
+}
+
+

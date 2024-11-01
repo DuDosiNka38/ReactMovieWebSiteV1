@@ -1,0 +1,48 @@
+// 
+// _card.scss
+// 
+
+.card {
+    margin-bottom: $grid-gutter-width;
+    box-shadow: $box-shadow;
+}
+
+.card-drop {
+    font-size: 20px;
+    line-height: 0;
+    color: inherit;
+}
+
+.card-title {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+    font-weight: $font-weight-medium;
+}
+
+.card-title-desc {
+    color: $card-title-desc;
+    margin-bottom: 24px;
+}
+
+.cstmCardBody {
+    background: #efefef;
+}
+.cstmCardSh {
+    box-shadow: 9px 7px 8px -4px #bbbbbb;
+}
+.caseInHome {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.32); 
+    max-height: 70px !important;
+    height: 40px !important;
+    .card-body {
+        padding-top: 0 !important;
+        padding-left: 10px;
+    }
+    
+
+}
+.bordered_prew {
+    box-shadow: -4px 2px 6px 1px #ddd;
+}
+
+

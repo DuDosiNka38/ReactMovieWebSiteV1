@@ -1,0 +1,115 @@
+.cst-i-case {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.case-card {
+  background-color: #ddd;
+}
+
+.toggle-icon > i {
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.link-to-type {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.link-to-case {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.link-to-case-cat {
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.link-to-case-subcat {
+  font-size: 14px;
+  color: #161616;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.small-text {
+  font-size: 14px !important;
+  background: #5664d2 !important;
+}
+
+.avtive-link {
+  opacity: 1;
+  /* color: #ff3d60 !important; */
+}
+
+.cstm-ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 7px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.case-toolbar button {
+  padding: 0px 10px;
+}
+
+.case-toolbar .card-body {
+  padding: 10px 20px;
+}
+
+.link-count {
+  margin-left: 10px;
+  border-radius: 10%;
+  background: #1cbb8c;
+  width: 20px;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.linkToEvent {
+  -webkit-box-shadow: 1px 3px 5px -2px #74788d;
+          box-shadow: 1px 3px 5px -2px #74788d;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+.eventMoreInfo {
+  font-size: 12px;
+  list-style-type: none;
+  color: #4a4a4a;
+  padding-left: 7px;
+  font-weight: bolder;
+}
+
+.eventIcon {
+  font-size: 20px;
+}
+
+.striped tbody > tr:nth-child(even) {
+  background: #f3f3f3  !important;
+}
+/*# sourceMappingURL=ld-style.css.map */

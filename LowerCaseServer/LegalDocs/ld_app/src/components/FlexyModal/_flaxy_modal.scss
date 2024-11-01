@@ -1,0 +1,123 @@
+.flaxyModal {
+  z-index: 99999999999;
+  .flaxy-holder {
+    transition: all 0.3s, linear;
+    z-index: 99999999999;
+    display: flex;
+    flex-direction: column;
+
+    // .flexy-action-syccess {
+
+    // }
+    // .flexy-action-danger {
+
+    // }
+    // .flexy-action-primary {
+
+    // }
+
+    .flaxy-body {
+      // padding: 5px 10px;
+    }
+    .flaxy-header {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    &--small {
+      position: fixed;
+      z-index: 99999999999;
+      display: flex;
+      bottom: 0;
+      transition: all 0.3s, linear;
+
+      right: 0;
+      width: 400px;
+      height: 60px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.65);
+      .flaxy-header {
+        width: 100%;
+        height: 100%;
+        padding: 2px 5px;
+        display: block;
+
+        background: #fff;
+        background-image: linear-gradient(327deg, #051c98 0%, rgba(121, 9, 117, 0.762342) 35%, #00d4ff 100%);
+        border-radius: 0.4rem 0 0 0;
+        border-bottom: 1px solid #4551b1;
+        background-image: linear-gradient(327deg, #00bcd4 22%, #4aa3ff 16%, #4caf50 100%) !important;
+        color: #fff;
+      }
+      .flaxy-action-warning {
+        animation: warning infinite 0.5s alternate linear;
+      }
+
+      .flaxy-action-danger {
+        animation: danger infinite 0.3s alternate linear;
+        background-color: rgba(247, 19, 19, 0.164);
+      }
+    }
+    &--medium {
+      position: fixed;
+      z-index: 99999999999;
+      display: flex;
+      bottom: 0;
+      right: 0;
+      width: 500px;
+      height: 500px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 1);
+      .flaxy-header {
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #adb5bd;
+        background: rgba(184, 184, 184, 0.65);
+        padding: 2px 10px;
+      }
+    }
+    &--big {
+      position: fixed;
+      z-index: 99999999999;
+      display: flex;
+      bottom: 0;
+      right: 0;
+      width: calc(100% - 240px);
+      height: calc(100vh - 70px);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 1);
+
+      .flaxy-header {
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #adb5bd;
+        background: rgba(184, 184, 184, 0.65);
+        padding: 2px 10px;
+      }
+      .flexy-action-default {
+        box-shadow: none !important;
+      }
+    }
+  }
+}
+
+.flaxy-action-default {
+  box-shadow: -2px -2px 9px 1px #adb5bd;
+}
+
+@keyframes warning {
+  0% {
+    box-shadow: -2px -2px 10px 0px #dab200;
+  }
+  100% {
+    box-shadow: -2px -2px 10px 3px #dab200;
+  }
+}
+
+@keyframes danger {
+  0% {
+    box-shadow: -2px -2px 10px 0px #fa3434;
+  }
+  100% {
+    box-shadow: -2px -2px 10px 4px #fa3434;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-watcher": "concurrently \"NODE_PATH=. nodemon api.js\" \"NODE_PATH=. nodemon watcher.js\"",
+    "dev-old": "concurrently \"NODE_PATH=. nodemon api.js\" \"NODE_PATH=. nodemon socket.js\"",
+    "dev": "NODE_PATH=. nodemon api.js",
+    "watcher": "NODE_PATH=. nodemon watcher.js",
+    "socket": "NODE_PATH=. nodemon socket.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.3",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "easy-pdf-merge": "^0.2.6",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "knex": "^0.21.21",
+    "libreoffice-convert": "^1.3.2",
+    "md5": "^2.3.0",
+    "md5-file": "^5.0.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "mysqldump": "^3.2.0",
+    "node-os-utils": "^1.3.5",
+    "pathinfo": "^0.1.0",
+    "pdf-extraction": "^1.0.2",
+    "pdf-merge": "^1.2.0",
+    "pdf-merger-js": "^3.2.1",
+    "pdfinfo": "0.0.3",
+    "socket.io": "^4.1.3",
+    "socket.io-stream": "^0.9.1",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "pdf-to-text": "0.0.7",
+    "pdf2pic": "^2.1.4"
+  }
+}

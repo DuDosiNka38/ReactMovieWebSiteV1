@@ -1,0 +1,30 @@
+
+.case-selector-block{
+  margin: 8px 0;    
+  padding: .625rem 1.5rem;
+
+  .case-selector-header{    
+    color: #ffffff47;
+  }
+
+  .case-selector{
+    width: auto;
+    display: flex;
+  
+    .current-case-color{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #00000057;
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    margin-right: 4px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px -2px #c5c5c5;
+    font-family: "Red Hat Display", sans-serif;
+    }
+  }
+}

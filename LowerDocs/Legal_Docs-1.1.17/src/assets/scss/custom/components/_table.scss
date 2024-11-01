@@ -1,0 +1,60 @@
+//
+// _table.scss
+//
+
+.table {
+  th {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.table thead tr{
+  background: #efefef;
+}
+
+.table tbody tr:nth-child(even){
+  background: #e8e8e8c7 !important;
+}
+
+// .table tbody tr:nth-child(odd){
+//   background: #f9f9f9;
+// }
+
+//Table centered
+.table-centered {
+  td,
+  th {
+    vertical-align: middle !important;
+  }
+}
+
+.table-nowrap {
+  th,
+  td {
+    white-space: nowrap;
+  }
+}
+
+.btnToTable {
+  padding: 0 5px !important;
+}
+.iToTable {
+  font-size: 20px !important;
+}
+.addBtn {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.addMore {
+  color: #fff;
+  font-size: 16px;
+
+}
+
+.addIcon {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 5px;
+}

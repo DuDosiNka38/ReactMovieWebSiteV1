@@ -1,0 +1,72 @@
+[
+  {
+      "case_name": "Leffler - Block",
+      "case_full_time": "1d 22h 48m",
+      "caseBG": "#ff3d60",
+      "active": true,
+      "documents": [
+        {
+          "doc_name": "doc1_name",
+          "doc_time": "4h 2m"
+          
+        },
+        {
+          "doc_name": "doc2_name",
+          "doc_time": "4h 2m"
+          
+        },
+        {
+          "doc_name": "doc1_name",
+          "doc_time": "4h 2m"
+          
+        }
+      ],
+      "events": [
+        {
+          "event_name": "event1 _name",
+          "event_time": "4h 2m"
+          
+        },
+        {
+          "event_name": "event2_name",
+          "event_time": "4h 2m"
+        }
+      ]
+    },
+
+    {
+      "case_name": "Bins, Klocko and Reichel",
+      "case_full_time": "13d 2h 8m",
+      "caseBG": "#2f80ed",
+      "active": false,
+      "documents": [
+        {
+          "doc_name": "doc1_name",
+          "doc_time": "4h 2m"
+          
+        },
+        {
+          "doc_name": "doc2_name",
+          "doc_time": "4h 2m"
+          
+        },
+        {
+          "doc_name": "doc1_name",
+          "doc_time": "4h 2m"
+          
+        }
+      ],
+      "events": [
+        {
+          "event_name": "event1 _name",
+          "event_time": "4h 2m"
+          
+        },
+        {
+          "event_name": "event2_name",
+          "event_time": "4h 2m"
+        }
+      ]
+    }
+    
+]

@@ -1,0 +1,120 @@
+
+
+.yearView {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-row-gap: 10px;
+  grid-auto-rows: minmax(384px, auto);
+  .monthBlock {
+    align-self: center;
+    justify-self: center;
+    border: 1px solid #ececec;
+    padding: 10px;
+    border-radius: 5px;
+
+    table {
+      & tr > th {
+        background: #ddd;
+        text-align: center;
+        // max-height: 38px !important;
+        // border: 2px solid #fff;
+        padding: 10px;
+        font-weight: bolder;
+        &:nth-child(1) {
+          color: #cb003a;
+        }
+        &:nth-child(7) {
+          color: #cb003a;
+        }
+      }
+    }
+
+    .monthName {
+      padding: 4px 0;
+      border-bottom: 1px solid #ddd;
+      margin-left: 2px;
+      font-weight: bolder;
+      color: #1b1717;
+      // height: 110px;
+      cursor: pointer;
+      &:hover {
+        color: #528adf;
+      }
+    }
+  }
+  .isCurrentDay {
+    background: #2196f3;
+    border-radius: 25%;
+    color: #fff;
+    font-weight: 900;
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .hasCalendarEvents {
+    position: relative;
+    &:after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      z-index: 2;
+      right: 5px;
+      top: 5px;
+      background: #cb003a;
+      border-radius: 50%;
+    }
+  }
+
+  .yearDate {
+    // border: 2px solid #fff;
+    div {
+      padding: 10px;
+      text-align: center;
+      // border: 1px solid transparent;
+
+      &:hover {
+        // border-radius: 25%;
+        // border: 1px solid #ddd;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .selectedCalendarDay {
+    border-radius: 25%;
+    background: #e91e63;
+    color: #fff;
+  }
+
+  .selectedCalendarRange {
+    // background: #ececec;
+    // color: #74788d;
+    background: #607d8b;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 0 2px 2px #607d8b;
+
+    &_startDate {
+      border-radius: 5px 0 0 5px;
+      background: #607d8b;
+      color: #fff;
+    }
+
+    &_endDate {
+      border-radius: 0 5px 5px 0;
+      background: #607d8b;
+      color: #fff;
+    }
+  }
+
+  .emptyCell {
+    color: rgba(0, 0, 0, 0);
+    &:hover {
+      border-radius: none !important;
+      border: none !important;
+      cursor: unset !important;
+    }
+  }
+}

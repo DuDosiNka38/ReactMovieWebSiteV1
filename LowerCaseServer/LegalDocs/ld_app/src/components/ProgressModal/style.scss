@@ -1,0 +1,50 @@
+.okh-component{
+  width: 100%;
+  height: 100%;
+
+  .progress-modal-wrapper{
+    display: flex;
+    flex-direction: column;
+    // width: 300px;
+    height: auto;
+    min-height: 200px;
+    position: fixed;
+    z-index: 10000;
+    right: 10px;
+    bottom: 10px;
+    justify-content: flex-end;
+    overflow-y: auto;
+  }
+
+
+  .progress-modal{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;   
+    background: #009688;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &-header{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      color:#fff;
+      font-size: 16px;
+      font-weight: 100;
+      padding: 5px 10px;
+      background: #00000038;
+      border-bottom: 1px solid #0000003d;
+    }
+    &-body{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      color:#fff;
+      font-size: 14px;
+      font-weight: 100;
+      padding: 10px 10px;
+    }
+  }
+}

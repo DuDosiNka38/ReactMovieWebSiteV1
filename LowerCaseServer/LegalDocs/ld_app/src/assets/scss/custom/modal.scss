@@ -1,0 +1,107 @@
+.modal-content{
+    border: none!important;
+    .modal-header{      
+      background-image: linear-gradient(to left, #3a6073, #16222A) !important;
+      border-radius: 0.4rem 0.4rem 0 0;
+      border-bottom: 1px solid #00000024;
+    
+        .modal-title{
+          text-transform: none;            
+          font-weight: 400;
+          color: #fff;
+          display: flex;
+          align-items: center;
+        }
+
+        button{
+          color: #fff;
+          font-weight: 100;
+        }
+        button:hover{
+          color:#d8d8d8;
+        }
+    }
+
+    .modal-body{
+      background: white;
+      position: relative;
+
+      .modal-image-bg{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #ffffff0f;
+        font-size: 160px;
+        line-height: 1;
+      }
+    }
+
+    .modal-body.scrollable-modal{
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+
+    .modal-body.confirm-modal{
+      h5{
+        text-transform: none;
+        line-height: 2;
+
+        b{
+          font-weight: bold;
+        }
+      }
+    }
+
+    .modal-footer{
+        background: #f5f5f5;
+        border-top: 1px solid #e8e8e8;
+    }
+
+    .close{
+        color:#fff;
+    }
+    
+    .close:hover{
+        color:#d8d8d8;
+    }
+}
+
+// .modal-dialog.new-case-modal{
+//   width: 600px!important;
+// }
+
+.minimized-modal{
+  width: 500px;
+  height: 60px;
+  position: fixed;
+  border-radius: 10px 0 0 0;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 10px #7d7d7d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+font-weight: bold;
+
+
+  &-content{
+  
+  }
+
+  &-controls{
+    i{
+      cursor: pointer;
+
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+}

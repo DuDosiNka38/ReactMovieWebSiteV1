@@ -1,0 +1,38 @@
+.pagination-block{
+  border:none!important;
+  margin-top: 10px;
+  box-shadow: none!important;
+   
+  &.size-s &-body{
+    padding: 0;
+  }
+
+  &.size-s{
+    .page-indicator{
+      display: none;
+    }
+  }
+
+  .page-item {
+    .page-link{
+      cursor: pointer;
+      position: relative;
+      display: block;
+      padding: 0.5rem 0.75rem;
+      margin-left: -1px;
+      line-height: 1.25;
+      color: #74788d;
+      background-color: #fff;
+      border: 1px solid #ced4da;
+    }
+  }
+
+  .page-item.active {
+    .page-link{
+      z-index: 0;
+      color: #fff;
+      background-color: #ff3d60;
+      border-color: #ff3d60;
+    }
+  }
+}

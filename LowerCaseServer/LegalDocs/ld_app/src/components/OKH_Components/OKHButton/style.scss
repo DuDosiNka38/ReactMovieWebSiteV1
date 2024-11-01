@@ -1,0 +1,108 @@
+.okh-button {
+  color: #737373;
+  box-shadow: 0px 0px 16px 0px #d6d6d6;
+  border: 1px solid #d0d0d0;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 0.5s;
+  background: linear-gradient(-65deg, #d6d6d6 60%, #ececec00 60%);
+  background-position-x: 30%;
+  background-size: 200%;
+  background-color: #ececec;
+  line-height: 1;
+
+  &.small {
+    padding: 0 8px;
+    height: 40px;
+    min-width: 130px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(-90deg, #d6d6d6 20%, #ececec00 20%);
+
+    &:hover {
+      background-color: #1cbb8c;
+    }
+
+    i {
+      font-size: 16px;
+      line-height: 1;
+      position: relative;
+
+      i.small {
+        font-size: 10px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 1;
+
+        &::before {
+          content: "\ea11";
+          background: #1cbb8c;
+          border-radius: 50%;
+          color: white;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  &.medium {
+    padding: 0 15px;
+    height: 72px;
+    font-size: 22px;
+    line-height: 72px;
+  }
+
+  &.big {
+    padding: 0 20px;
+    height: 100px;
+    font-size: 24px;
+    line-height: 100px;
+
+    &:hover {
+      background-position-x: 10%;
+      background-color: #1cbb8c;
+
+      .button-text {
+        color: #fff;
+      }
+    }
+
+    i {
+      font-size: 72px;
+      line-height: 1;
+      position: relative;
+
+      i.small {
+        font-size: 24px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 1;
+
+        &::before {
+          content: "\ea11";
+          background: #1cbb8c;
+          border-radius: 50%;
+          color: white;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // &.tb-2{
+  //   background-color: #1cbb8c;
+  //   color: #0e654a;
+  // }
+  // &.tb-2:hover{
+  //   background-color: #2a9273;
+  // }
+}

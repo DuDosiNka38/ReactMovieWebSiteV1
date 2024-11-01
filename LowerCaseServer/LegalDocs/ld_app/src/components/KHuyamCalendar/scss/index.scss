@@ -1,0 +1,48 @@
+@import './KHuyamCalendarYearView';
+@import './KHuyamCalendarMonthView';
+
+.cutHeight {
+  // max-height: 700px;
+}
+.calendarSideBar {
+  // max-height: 700px;
+  overflow-y: hidden;
+}
+.sidebarHeader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.selectedDate {
+  font-size: 18px;
+  font-weight: bold;
+}
+.selectedCalendarRange {
+  font-weight: bold;
+  padding: 10px 0;
+  color: #2196f3;
+}
+.sidebarHeader {
+  border-bottom: 1px solid #adadad;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.unselectableText {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.eventsList{
+  max-height: 700px;
+  transition: all 0.3s;
+}
+
+.overflow-y-auto{
+  overflow-y: auto!important;
+}

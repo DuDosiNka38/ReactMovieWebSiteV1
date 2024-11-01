@@ -1,0 +1,41 @@
+.sampleContainer > div{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sampleContainer {
+  position: relative;
+}
+
+.toolbar_card {
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3A6073, #16222A) !important;
+  background-attachment: fixed !important;
+
+}
+
+.toolform_button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(175,175,175, 0.3);
+  padding: 2px 5px;
+  color:#fff;
+  font-size: 16px;
+  transition: all .5s;
+  margin-right: 15px;
+  cursor: pointer;
+  &:hover {
+  background-color: rgba(175,175,175, 0.5);
+
+  }
+}
+.linera-line{
+  cursor: pointer;
+}
+
+// .RulerStage  {
+//   background: red;
+// }

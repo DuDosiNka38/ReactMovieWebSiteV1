@@ -1,0 +1,22 @@
+[
+  {
+    "id": "role-1",
+    "role": "Read file"
+  },
+  {
+    "id": "role-2",
+    "role": "Edit files"
+  },
+  {
+    "id": "role-3",
+    "role": "Delete files"
+  },
+  {
+    "id": "role-4",
+    "role": "Upload files"
+  },
+  {
+    "id": "role-5",
+    "role": "Download files"
+  }
+]

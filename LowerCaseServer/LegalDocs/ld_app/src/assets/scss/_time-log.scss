@@ -1,0 +1,53 @@
+.time-log-new-timer{
+  padding: 4px 16px 8px 4px;
+  font-size: 14px;
+  background-image: linear-gradient(327deg, rgba(47, 6, 46, 0.762342) 15%, #00d4ff 100%) !important;
+  font-weight: bolder !important;
+  height: 36px;
+  border-radius: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin: 2px;
+
+  &.time-log-button{
+    display: block;
+    padding: 4px;
+    // width: 36px;
+    // overflow: hidden;
+
+    .time-log-button-text{
+      display: none;
+    }
+
+    &:hover{
+      .time-log-button-text{
+        display: block;
+      }
+    }
+  }
+
+  &:hover{
+    background: #d63754;
+    box-shadow: 0px 0px 8px 4px #c5c5c5;
+    transition: all 0.2s;
+  }
+
+  i {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    // background: #00000061;
+    text-align: center;
+    line-height: 1.9;
+    font-weight: 900;
+    padding: 0;
+    font-size: 14px;
+
+    &:before{
+      position: relative;
+      top: 1px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const SET_REFFERER_DATA = "SET_REFFERER_DATA";

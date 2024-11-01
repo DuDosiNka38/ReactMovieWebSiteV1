@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Max",
+    "id" : "id1",
+    "phone": "+380957909143",
+    "mail": "wwwdevinc@gmail.com"
+  },
+   {
+    "name": "Max2",
+    "id" : "id2",
+    "phone": "+380957909143",
+    "mail": "wwwdevinc@gmail.com"
+  },
+   {
+    "name": "Max3",
+    "id" : "id13",
+    "phone": "+380957909143",
+    "mail": "wwwdevinc@gmail.com"
+  }
+]

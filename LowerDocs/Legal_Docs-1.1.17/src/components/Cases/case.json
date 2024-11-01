@@ -1,0 +1,26 @@
+[
+  {
+    "id": "id-1",
+    "CaseName": "Name1",
+    "Case_Number": "n1"
+
+  },
+  {
+    "id": "id-2",
+    "CaseName": "Name2",
+    "Case_Number": "n2"
+
+  },
+  {
+    "id": "id-3",
+    "CaseName": "Name3",
+    "Case_Number": "n3"
+
+  },
+  {
+    "id": "id-4",
+    "CaseName": "Name4",
+    "Case_Number": "n4"
+    
+  }
+]

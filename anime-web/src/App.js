@@ -4,7 +4,7 @@ import {
 import Home from './Pages/Home';
 import Posts from './Pages/Posts';
 import Error from './Pages/Error';
-import Navbar from './Pages/NavBar';
+
 
 
 function App() {

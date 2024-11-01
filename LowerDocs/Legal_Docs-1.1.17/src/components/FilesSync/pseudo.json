@@ -1,0 +1,364 @@
+[
+  {
+    "dir": "/home/tony/Downloads",
+    "files": [
+      {
+        "File_hash": "1cbf71d36010a1be5b831e87f6fb8c5f",
+        "File_name": "FileZilla_3.53.1_x86_64-linux-gnu.tar.bz2",
+        "File_path": "/home/tony/Downloads/FileZilla_3.53.1_x86_64-linux-gnu.tar.bz2",
+        "File_ext": ".bz2",
+        "File_size": "13.9 MB",
+        "File_create_date": "5/3/2021, 3:30:26 PM"
+      },
+      {
+        "File_hash": "70713617007c0f3444b20d2ef7a0b8bb",
+        "File_name": "041aca98bb22cb90.xls",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/041aca98bb22cb90.xls",
+        "File_ext": ".xls",
+        "File_size": "551.0 KB",
+        "File_create_date": "5/22/2021, 7:59:05 PM"
+      },
+      {
+        "File_hash": "e407003d95694869286cd5d4d38e60cb",
+        "File_name": "1.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/1.docx",
+        "File_ext": ".docx",
+        "File_size": "14.3 KB",
+        "File_create_date": "5/22/2021, 7:59:04 PM"
+      },
+      {
+        "File_hash": "d424e4c71ca0a2935e96730960369079",
+        "File_name": "1506d2da50031432.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/1506d2da50031432.docx",
+        "File_ext": ".docx",
+        "File_size": "12.3 KB",
+        "File_create_date": "5/22/2021, 7:59:05 PM"
+      },
+      {
+        "File_hash": "bfbacda06dc1cde456d50082f758abe4",
+        "File_name": "1_20201208_0001.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/1_20201208_0001.pdf",
+        "File_ext": ".pdf",
+        "File_size": "1.7 MB",
+        "File_create_date": "5/22/2021, 7:59:07 PM"
+      },
+      {
+        "File_hash": "e454a00943aefc09cd95b685b7788679",
+        "File_name": "2020_03_19 (2).pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/2020_03_19 (2).pdf",
+        "File_ext": ".pdf",
+        "File_size": "49.0 KB",
+        "File_create_date": "5/22/2021, 7:59:06 PM"
+      },
+      {
+        "File_hash": "e454a00943aefc09cd95b685b7788679",
+        "File_name": "2020_03_19.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/2020_03_19.pdf",
+        "File_ext": ".pdf",
+        "File_size": "49.0 KB",
+        "File_create_date": "5/22/2021, 7:59:05 PM"
+      },
+      {
+        "File_hash": "d18835637ec873bb22efb16cd53a15fc",
+        "File_name": "2021-01-31_maksym_marokhonko.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/2021-01-31_maksym_marokhonko.pdf",
+        "File_ext": ".pdf",
+        "File_size": "306.7 KB",
+        "File_create_date": "5/22/2021, 7:59:02 PM"
+      },
+      {
+        "File_hash": "9f096cf442176a4d3f7abaf1e2adfcfb",
+        "File_name": "2_5465418615136194805.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/2_5465418615136194805.docx",
+        "File_ext": ".docx",
+        "File_size": "6.5 KB",
+        "File_create_date": "5/22/2021, 7:58:54 PM"
+      },
+      {
+        "File_hash": "0751be38981ca69c8861c2168a0b02c6",
+        "File_name": "Documents_Project.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Documents_Project.docx",
+        "File_ext": ".docx",
+        "File_size": "13.7 KB",
+        "File_create_date": "5/22/2021, 7:59:06 PM"
+      },
+      {
+        "File_hash": "307fd2e3dcdb4691348c29e81e4ff271",
+        "File_name": "IMG_20210502_200925.jpg",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/IMG_20210502_200925.jpg",
+        "File_ext": ".jpg",
+        "File_size": "5.1 MB",
+        "File_create_date": "5/6/2021, 11:43:54 PM"
+      },
+      {
+        "File_hash": "9f547f414acf1431ba6120c275b4939f",
+        "File_name": "IMG_20210503_094514.jpg",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/IMG_20210503_094514.jpg",
+        "File_ext": ".jpg",
+        "File_size": "5.9 MB",
+        "File_create_date": "5/6/2021, 11:43:51 PM"
+      },
+      {
+        "File_hash": "9f0dc41d2e844014728ce47ff8cfb311",
+        "File_name": "IMG_20210503_094516.jpg",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/IMG_20210503_094516.jpg",
+        "File_ext": ".jpg",
+        "File_size": "6.2 MB",
+        "File_create_date": "5/6/2021, 11:43:53 PM"
+      },
+      {
+        "File_hash": "df087b28e3d95d817df0c7ebeaae004c",
+        "File_name": "React_и_Redux_Функциональная_веб_разработка.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/React_и_Redux_Функциональная_веб_разработка.pdf",
+        "File_ext": ".pdf",
+        "File_size": "5.7 MB",
+        "File_create_date": "5/22/2021, 7:58:59 PM"
+      },
+      {
+        "File_hash": "0a1b70be376afcc209bdac57510d41d5",
+        "File_name": "asdasd.odt",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/asdasd.odt",
+        "File_ext": ".odt",
+        "File_size": "11.8 KB",
+        "File_create_date": "5/22/2021, 7:58:54 PM"
+      },
+      {
+        "File_hash": "0c20104dc083fe493b45e4affa331c84",
+        "File_name": "krepfasad_app_site_localhost_admin_default_kf_pricelist_products.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/krepfasad_app_site_localhost_admin_default_kf_pricelist_products.pdf",
+        "File_ext": ".pdf",
+        "File_size": "155.8 KB",
+        "File_create_date": "5/22/2021, 7:58:55 PM"
+      },
+      {
+        "File_hash": "faa58e168f1d8900793615bf50cb6cde",
+        "File_name": "krepfasad_app_site_localhost_admin_default_kf_products_phpMyAdmin.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/krepfasad_app_site_localhost_admin_default_kf_products_phpMyAdmin.pdf",
+        "File_ext": ".pdf",
+        "File_size": "125.9 KB",
+        "File_create_date": "5/22/2021, 7:58:55 PM"
+      },
+      {
+        "File_hash": "05557a4d9ebb546d95219a78713e555b",
+        "File_name": "Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_ext": ".pdf",
+        "File_size": "5.5 MB",
+        "File_create_date": "5/22/2021, 7:58:57 PM"
+      },
+      {
+        "File_hash": "89ef67282bff51820a6df17b06ccbbc4",
+        "File_name": "Новый документ.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Новый документ.docx",
+        "File_ext": ".docx",
+        "File_size": "8.1 KB",
+        "File_create_date": "5/22/2021, 7:59:03 PM"
+      },
+      {
+        "File_hash": "89ec2de61e85a31676a18766a9865d16",
+        "File_name": "Расчетная_таблица_для_общего_прайс_листа.xls",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Расчетная_таблица_для_общего_прайс_листа.xls",
+        "File_ext": ".xls",
+        "File_size": "70.0 KB",
+        "File_create_date": "5/22/2021, 7:59:03 PM"
+      },
+      {
+        "File_hash": "e407003d95694869286cd5d4d38e60cb",
+        "File_name": "Техническое_задание_по_написанию_автоматического_прайс_листа.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Техническое_задание_по_написанию_автоматического_прайс_листа.docx",
+        "File_ext": ".docx",
+        "File_size": "14.3 KB",
+        "File_create_date": "5/22/2021, 7:58:54 PM"
+      },
+      {
+        "File_hash": "53c720d3f19991fe961af511d3337e40",
+        "File_name": "Формулы для прайса.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/Формулы для прайса.docx",
+        "File_ext": ".docx",
+        "File_size": "14.7 KB",
+        "File_create_date": "5/22/2021, 7:59:04 PM"
+      },
+      {
+        "File_hash": "91a28c8d17c69c0e971371117f282eb8",
+        "File_name": "январь 2021 2я неделя.docx",
+        "File_path": "/home/tony/Downloads/Telegram Desktop/январь 2021 2я неделя.docx",
+        "File_ext": ".docx",
+        "File_size": "8.5 KB",
+        "File_create_date": "5/22/2021, 7:58:54 PM"
+      },
+      {
+        "File_hash": "ad9e811dbfba8b67c98c487de0fd2315",
+        "File_name": "The Good Doctor (2017)_s01e04_480p.mp4",
+        "File_path": "/home/tony/Downloads/The Good Doctor (2017)_s01e04_480p.mp4",
+        "File_ext": ".mp4",
+        "File_size": "221.6 MB",
+        "File_create_date": "5/11/2021, 2:15:11 PM"
+      },
+      {
+        "File_hash": "3e152ccc4787fefe359afdbdb85bb1c7",
+        "File_name": "code_1.55.2-1618307277_amd64.deb",
+        "File_path": "/home/tony/Downloads/code_1.55.2-1618307277_amd64.deb",
+        "File_ext": ".deb",
+        "File_size": "67.7 MB",
+        "File_create_date": "5/3/2021, 3:30:32 PM"
+      },
+      {
+        "File_hash": "51ebae724a7ad7748c5dade9ccdd50b0",
+        "File_name": "code_1.56.0-1620166262_amd64.deb",
+        "File_path": "/home/tony/Downloads/code_1.56.0-1620166262_amd64.deb",
+        "File_ext": ".deb",
+        "File_size": "72.9 MB",
+        "File_create_date": "5/11/2021, 10:06:48 AM"
+      },
+      {
+        "File_hash": "e1122775041faf5a06b75ee0ccc40ae2",
+        "File_name": "discord-0.0.14.deb",
+        "File_path": "/home/tony/Downloads/discord-0.0.14.deb",
+        "File_ext": ".deb",
+        "File_size": "68.2 MB",
+        "File_create_date": "5/3/2021, 3:29:10 PM"
+      },
+      {
+        "File_hash": "1194be060c7cf62cf427f49d25375943",
+        "File_name": "google-chrome-stable_current_amd64.deb",
+        "File_path": "/home/tony/Downloads/google-chrome-stable_current_amd64.deb",
+        "File_ext": ".deb",
+        "File_size": "79.5 MB",
+        "File_create_date": "5/3/2021, 3:28:10 PM"
+      },
+      {
+        "File_hash": "cd5ed4b4916a7330709572600e4096b2",
+        "File_name": "steam_latest.deb",
+        "File_path": "/home/tony/Downloads/steam_latest.deb",
+        "File_ext": ".deb",
+        "File_size": "3.2 MB",
+        "File_create_date": "5/4/2021, 10:59:24 AM"
+      },
+      {
+        "File_hash": "11c7863d806406212ed86dd99a2bf3bf",
+        "File_name": "teamviewer_15.17.6_amd64.deb",
+        "File_path": "/home/tony/Downloads/teamviewer_15.17.6_amd64.deb",
+        "File_ext": ".deb",
+        "File_size": "14.6 MB",
+        "File_create_date": "5/3/2021, 3:29:32 PM"
+      }
+    ]
+  },
+  {
+    "dir": "/home/tony/Desktop/TEST",
+    "files": [
+      {
+        "File_hash": "05557a4d9ebb546d95219a78713e555b",
+        "File_name": "Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Documents/4/Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_ext": ".pdf",
+        "File_size": "5.5 MB",
+        "File_create_date": "5/28/2021, 12:42:27 AM"
+      },
+      {
+        "File_hash": "d2132553ac0b138e737c9962c784694b",
+        "File_name": "201512_Record of Account_RUBA_100470209204.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/201512_Record of Account_RUBA_100470209204.pdf",
+        "File_ext": ".pdf",
+        "File_size": "10.0 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "486d088dc1b5cbe77a89c7f7246dbfac",
+        "File_name": "2016_ZiMAD blog re increasing revenue Vungle to 6000 per day.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/2016_ZiMAD blog re increasing revenue Vungle to 6000 per day.pdf",
+        "File_ext": ".pdf",
+        "File_size": "491.5 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "a314fe3870a48cb934955c70033fe8b1",
+        "File_name": "2017_02_27_Discovery_271_sanctions_1619628834.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/2017_02_27_Discovery_271_sanctions_1619628834.pdf",
+        "File_ext": ".pdf",
+        "File_size": "177.6 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "d666d710ed4d3e8205e89160cc9e1fc5",
+        "File_name": "2019_04_27_Yahoo Mail - Re_ Fw_ Reminder! Wizard of Oz.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/2019_04_27_Yahoo Mail - Re_ Fw_ Reminder! Wizard of Oz.pdf",
+        "File_ext": ".pdf",
+        "File_size": "149.0 KB",
+        "File_create_date": "5/28/2021, 12:26:16 AM"
+      },
+      {
+        "File_hash": "3003884ada39ff7c7cf120f5d7018ff0",
+        "File_name": "2019_06_02_Yahoo Mail - Re_ Annual Concert 2019 Info thread.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/2019_06_02_Yahoo Mail - Re_ Annual Concert 2019 Info thread.pdf",
+        "File_ext": ".pdf",
+        "File_size": "236.7 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "73727a2aeb4a9c3cae64bc85650ea3fa",
+        "File_name": "2019_08_21 AR OSC re 4-27-15 Ct Order against IR.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/2019_08_21 AR OSC re 4-27-15 Ct Order against IR.pdf",
+        "File_ext": ".pdf",
+        "File_size": "19.6 MB",
+        "File_create_date": "5/28/2021, 12:26:20 AM"
+      },
+      {
+        "File_hash": "ddb2050ff749568268e723f0a04105d2",
+        "File_name": "Hung v. Superior Court_1620161029.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/Hung v. Superior Court_1620161029.pdf",
+        "File_ext": ".pdf",
+        "File_size": "171.1 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "ff6ff036d459ddd951da49481de50d5a",
+        "File_name": "PDF_Converter_Pro_Quick_Reference_Guide.RU.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/PDF_Converter_Pro_Quick_Reference_Guide.RU.pdf",
+        "File_ext": ".pdf",
+        "File_size": "1.2 MB",
+        "File_create_date": "5/28/2021, 12:26:16 AM"
+      },
+      {
+        "File_hash": "df087b28e3d95d817df0c7ebeaae004c",
+        "File_name": "React_и_Redux_Функциональная_веб_разработка.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/React_и_Redux_Функциональная_веб_разработка.pdf",
+        "File_ext": ".pdf",
+        "File_size": "5.7 MB",
+        "File_create_date": "5/28/2021, 12:26:17 AM"
+      },
+      {
+        "File_hash": "366f4267bc9507ab99de6ea445ae8171",
+        "File_name": "Vilola_vs_JH_DOC102417-001_OCR.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/Vilola_vs_JH_DOC102417-001_OCR.pdf",
+        "File_ext": ".pdf",
+        "File_size": "799.8 KB",
+        "File_create_date": "5/28/2021, 12:26:16 AM"
+      },
+      {
+        "File_hash": "05557a4d9ebb546d95219a78713e555b",
+        "File_name": "Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/Бэнкс_А_,_Порселло_Е_GraphQL_язык_запросов_для_современных_веб_приложений.pdf",
+        "File_ext": ".pdf",
+        "File_size": "5.5 MB",
+        "File_create_date": "5/28/2021, 12:26:18 AM"
+      },
+      {
+        "File_hash": "ac2f11443e358dd35bbff59257d13120",
+        "File_name": "Договір ПРЕДОПЛАТА.doc",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/Договір ПРЕДОПЛАТА.doc",
+        "File_ext": ".doc",
+        "File_size": "65.5 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      },
+      {
+        "File_hash": "d06441327e894319dd3ede53b04191c2",
+        "File_name": "февраль  2021 1я половина.docx",
+        "File_path": "/home/tony/Desktop/TEST/TST_CASE_1/Events/Some_Event_Name/4/февраль  2021 1я половина.docx",
+        "File_ext": ".docx",
+        "File_size": "8.9 KB",
+        "File_create_date": "5/28/2021, 12:26:15 AM"
+      }
+    ]
+  }
+]

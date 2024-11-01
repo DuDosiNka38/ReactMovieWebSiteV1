@@ -1,0 +1,174 @@
+//
+// Forms.scss
+//
+
+
+// checkbox input right
+
+// .form-check-right{
+//     padding-left: 0;
+//     display: inline-block;
+//     padding-right: 1.25rem;
+//     .form-check-input{
+//       right: 0;
+//       margin-left: 0;
+//       display: none;
+//     }
+  
+//     .form-check-label{
+//       display: block;
+//     }
+//   }
+
+
+//   input[type="checkbox"] {
+//     display: none;
+//   }
+  .showPass {
+    position: absolute;
+    right: 20px;
+    transform: translateY(50%);
+    font-size: 20px;
+    color: #5664d2;
+  }
+  
+  .custom-control-right{
+    padding-left: 0;
+    padding-right: 1.5rem;  
+    display: inline-block;
+    .custom-control-label{
+      display: inline-block;
+      &:before, &:after{
+        left: auto;
+        right: -1.5rem;
+      }
+    }
+  
+    .custom-control-input{
+      left: auto;
+      display: none !important;
+    }
+}
+
+.nospaceFile {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.custom-control-label{
+  cursor: pointer;
+}
+
+.hidden-input {
+  display: none !important;
+}
+$scoreRed: #f85347;
+$scoreSemiRed: #f46c36;
+$scoreYellow: #e0c527;
+$scoreSemiYellow: #d7e41f;
+// $scoreSemiGreen: #68af4c;
+$scoreGreen: #68af4c;
+
+
+
+.password{
+ 
+  
+  &__strength{
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: transparent;
+    transition: all 300ms ease-in-out;
+    
+    &[data-score="null"]{
+      width: 0;
+      background: red;
+    }
+    
+    &[data-score="0"]{
+      width: 5%;
+      background: $scoreRed;
+    }
+    &[data-score="1"]{
+      width: 25%;
+      background: $scoreSemiRed;
+    }
+    &[data-score="2"]{
+      width: 50%;
+      background: $scoreSemiYellow;
+    }
+    &[data-score="3"]{
+      width: 75%;
+      background: $scoreYellow;
+    }
+    &[data-score="4"]{
+      width: 100%;
+      background: $scoreGreen;
+    }
+  }
+}
+
+.custom-textarea {
+  resize: none;
+}
+.custom-plus {
+  color: #fff !important;
+  // font-size: 22px !important;
+  font-size: bolder!important;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background-image: none !important;
+}
+
+.customCHBX:checked .customCHBX-leb::before {
+  background: 1px solid red !important;
+}
+.indropCHBX {
+  margin: 5px 15px !important;
+}
+
+.custom_Card_Header {
+  position: relative;
+  padding: 20px 0;
+  background: #343a40;
+  border-radius:  0 !important;
+}
+
+.customFormControl {
+display: block;
+height: 100%;
+top: 0;
+left: 0;
+position: absolute;
+padding: 0;
+width: 100%;
+}
+
+.dbi_Chbx_label {
+  display: block;
+  position: relative;
+  height: 100%;
+  top: 0;
+  p {
+    margin-left: 20px;
+    position: absolute;
+    top: 25%;
+    color: #fff
+  }
+  &::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+    left: 0;
+    top: 0;
+    // border-radius: 5 !important;
+    // border-top-left-radius: 5px !important;
+    // border-top-right-radius: 5px !important;
+    background: transparent;
+  }
+}
